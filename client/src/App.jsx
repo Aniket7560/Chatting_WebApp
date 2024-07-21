@@ -4,7 +4,7 @@ import Routes from "./Routes";
 
 
 function App() {
-  axios.defaults.baseURL = "https://chatting-web-app-api.vercel.app";
+  axios.defaults.baseURL = "https://chatting-web-app-api.vercel.app/";
   // axios.defaults.baseURL = "http://localhost:4000";
   axios.defaults.withCredentials = true;
   return(
